@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Brief description of the algorithm:
-# The article propose an algorithm called "Hierarchical clustering" for detecting compact communities  based on a another graph traversal algorithm "LexDFS".In fact the "Hierarchical clustering"  algorithm applies "LexDFS" first on the graph for a  certain number l of iterations(starting by a differnt node of the graph in each iteretion).bellow is a breif description of LexDFS . <br>
+# ### Brief description :
+# This code is a python implementation of an algorithm called "Hierarchical clustering" for detecting compact communities  based on a another graph traversal algorithm "LexDFS".In fact the "Hierarchical clustering"  algorithm applies "LexDFS" first on the graph for a  certain number l of iterations(starting by a differnt node of the graph in each iteretion).bellow is a breif description of LexDFS . <br>
 # LexDFS:
 #  * input : graph,starting node
 #  * output : affect  a number node.visited to each node (it corresponds to the iteretation in which the node has             been visited) <br>
@@ -176,8 +176,3 @@ while len(ordered_edg_set)>1:
 print ("The total number of clusters is :",len(V))
 print('list of clusters : ', V)
 
-
-# ## Team members:
-# * Safae Elamrani
-# * Imane Elabid
-# * Meryem Janati Idrissi
